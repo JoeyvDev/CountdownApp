@@ -61,7 +61,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
     
     override func viewWillAppear(animated: Bool) {
-        
+        countdownLabel?.alignmentRectForFrame(self.view.frame)
     }
 
         
